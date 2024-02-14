@@ -29,5 +29,11 @@ namespace Test.API.Controllers
             })
             .ToArray();
         }
+
+        [HttpGet("test")]
+        public string Get(int id)
+        {
+            return "Test";
+        }
     }
 }
