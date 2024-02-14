@@ -1,9 +1,10 @@
 # github action to deploy HtmlLearning to azure
 
 name: TESTAPIHAMZA
-
 on:
-  workflow_dispatch:
+ push:
+    branches:
+      - main 
 
 env:
   AZURE_WEBAPP_NAME: "testapihamza"
