@@ -2,6 +2,6 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <ActiveDebugProfile>https</ActiveDebugProfile>
-    <NameOfLastUsedPublishProfile>C:\Users\Admin\Documents\GitHub\testapi\Test.API\Properties\PublishProfiles\TestApiHamza - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>C:\Users\Admin\Documents\GitHub\testapi\.github\workflows\main_testapihamza.yml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>

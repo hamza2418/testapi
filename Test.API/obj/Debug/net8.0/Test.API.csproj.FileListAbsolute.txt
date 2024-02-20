@@ -30,6 +30,9 @@ C:\Users\Admin\source\repos\Test\Test.API\obj\Debug\net8.0\refint\Test.API.dll
 C:\Users\Admin\source\repos\Test\Test.API\obj\Debug\net8.0\Test.API.pdb
 C:\Users\Admin\source\repos\Test\Test.API\obj\Debug\net8.0\Test.API.genruntimeconfig.cache
 C:\Users\Admin\source\repos\Test\Test.API\obj\Debug\net8.0\ref\Test.API.dll
+C:\Users\Admin\Documents\GitHub\testapi\Test.API\bin\Debug\net8.0\Test.Library.deps.json
+C:\Users\Admin\Documents\GitHub\testapi\Test.API\bin\Debug\net8.0\Test.Library.runtimeconfig.json
+C:\Users\Admin\Documents\GitHub\testapi\Test.API\bin\Debug\net8.0\Test.Library.exe
 C:\Users\Admin\Documents\GitHub\testapi\Test.API\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\Admin\Documents\GitHub\testapi\Test.API\bin\Debug\net8.0\appsettings.json
 C:\Users\Admin\Documents\GitHub\testapi\Test.API\bin\Debug\net8.0\Test.API.exe
@@ -41,6 +44,8 @@ C:\Users\Admin\Documents\GitHub\testapi\Test.API\bin\Debug\net8.0\Microsoft.Open
 C:\Users\Admin\Documents\GitHub\testapi\Test.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\Admin\Documents\GitHub\testapi\Test.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Admin\Documents\GitHub\testapi\Test.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Admin\Documents\GitHub\testapi\Test.API\bin\Debug\net8.0\Test.Library.dll
+C:\Users\Admin\Documents\GitHub\testapi\Test.API\bin\Debug\net8.0\Test.Library.pdb
 C:\Users\Admin\Documents\GitHub\testapi\Test.API\obj\Debug\net8.0\Test.API.csproj.AssemblyReference.cache
 C:\Users\Admin\Documents\GitHub\testapi\Test.API\obj\Debug\net8.0\Test.API.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Admin\Documents\GitHub\testapi\Test.API\obj\Debug\net8.0\Test.API.AssemblyInfoInputs.cache

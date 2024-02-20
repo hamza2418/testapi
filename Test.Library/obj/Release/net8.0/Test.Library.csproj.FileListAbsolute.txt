@@ -1,5 +1,4 @@
 C:\Users\Admin\Documents\GitHub\testapi\Test.Library\bin\Release\net8.0\Test.Library.exe
-C:\Users\Admin\Documents\GitHub\testapi\Test.Library\bin\Release\net8.0\Settings.job
 C:\Users\Admin\Documents\GitHub\testapi\Test.Library\bin\Release\net8.0\Test.Library.deps.json
 C:\Users\Admin\Documents\GitHub\testapi\Test.Library\bin\Release\net8.0\Test.Library.runtimeconfig.json
 C:\Users\Admin\Documents\GitHub\testapi\Test.Library\bin\Release\net8.0\Test.Library.dll

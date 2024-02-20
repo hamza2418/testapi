@@ -1,0 +1,16 @@
+C:\Users\Admin\Documents\GitHub\testapi\Test.API\obj\Release\net8.0\PubTmp\Out\Test.Library.exe
+C:\Users\Admin\Documents\GitHub\testapi\Test.API\obj\Release\net8.0\PubTmp\Out\Test.API.exe
+C:\Users\Admin\Documents\GitHub\testapi\Test.API\obj\Release\net8.0\PubTmp\Out\Test.Library.deps.json
+C:\Users\Admin\Documents\GitHub\testapi\Test.API\obj\Release\net8.0\PubTmp\Out\Test.Library.runtimeconfig.json
+C:\Users\Admin\Documents\GitHub\testapi\Test.API\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+C:\Users\Admin\Documents\GitHub\testapi\Test.API\obj\Release\net8.0\PubTmp\Out\appsettings.json
+C:\Users\Admin\Documents\GitHub\testapi\Test.API\obj\Release\net8.0\PubTmp\Out\Test.API.dll
+C:\Users\Admin\Documents\GitHub\testapi\Test.API\obj\Release\net8.0\PubTmp\Out\Test.API.deps.json
+C:\Users\Admin\Documents\GitHub\testapi\Test.API\obj\Release\net8.0\PubTmp\Out\Test.API.runtimeconfig.json
+C:\Users\Admin\Documents\GitHub\testapi\Test.API\obj\Release\net8.0\PubTmp\Out\Test.API.pdb
+C:\Users\Admin\Documents\GitHub\testapi\Test.API\obj\Release\net8.0\PubTmp\Out\Microsoft.OpenApi.dll
+C:\Users\Admin\Documents\GitHub\testapi\Test.API\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Admin\Documents\GitHub\testapi\Test.API\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Admin\Documents\GitHub\testapi\Test.API\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Admin\Documents\GitHub\testapi\Test.API\obj\Release\net8.0\PubTmp\Out\Test.Library.dll
+C:\Users\Admin\Documents\GitHub\testapi\Test.API\obj\Release\net8.0\PubTmp\Out\Test.Library.pdb
