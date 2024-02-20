@@ -1,6 +1,7 @@
 namespace Test.API
 {
-    public class Index
+    public class WeatherForecast
+
     {
         public DateOnly Date { get; set; }
 
