@@ -1,0 +1,58 @@
+name: .NET Core
+
+env:
+  BINARIES: '.Test.Library' # the last folder name will become the webjob name in the portal
+  ZIP_FILE: 'webjob.zip'
+  ZIP_PATH: './output'
+  ZIP_FILEPATH: './output/webjob.zip'
+
+on:
+  push:
+    branches: [ master, develop ]
+  pull_request:
+    branches: [ master, develop ]
+    types: [review_requested, ready_for_review]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Setup .NET Core
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 3.1.101
+
+    - name: Install dependencies
+      run: dotnet restore ./src/worker.sln
+
+    - name: Build
+      run: dotnet build ./src/worker.sln --configuration Release --no-restore --output ${{env.BINARIES}}
+    
+    - name: Test
+      run: dotnet test ./src/worker.sln --no-restore --verbosity normal --output ${{env.BINARIES}}
+
+    - name: Zip
+      if: github.event_name != 'pull_request' # skip on PRs
+      uses: nguyenquyhy/zip-release@v0.3.0
+      with:
+        filename: '${{env.ZIP_FILE}}'
+        workingDirectory:  ${{env.ZIP_PATH}}
+        exclusions: 'worker.exe app_data/**/unix/*' # skip .exe and Unix runtime as deployment will be to a Windows App Service
+
+    - name: Deploy to Test (develop branch) # skip on PRs
+      if: github.ref == 'refs/heads/develop' && github.event_name != 'pull_request' # skip on PRs, deploy develop branch to the test environment
+      uses: srijken/azure-zip-deploy@v1.0.1
+      with:
+        zip-file: ${{env.ZIP_FILEPATH}}
+        publish-profile: ${{ secrets.WEBJOB_PUBLISH_PROFILE_TEST }}
+
+    - name: Deploy to Production (master branch)
+      if: github.ref == 'refs/heads/master' && github.event_name != 'pull_request' # skip on PRs, deploy master branch to the production environment
+      uses: azure/webapps-deploy@v2
+      with:
+        app-name: ${{ env.AZURE_WEBAPP_NAME }}
+        package: ${{env.ZIP_FILEPATH}}
+        publish-profile: ${{ secrets.WEBJOB_PUBLISH_PROFILE_PROD }}
