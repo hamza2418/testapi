@@ -1,1 +1,0 @@
-dotnet Test.Library.dll %*

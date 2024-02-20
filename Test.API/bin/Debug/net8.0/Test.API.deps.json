@@ -9,7 +9,7 @@
       "Test.API/1.0.0": {
         "dependencies": {
           "Swashbuckle.AspNetCore": "6.4.0",
-          "Test.Library": "1.0.0"
+          "Testt.User": "1.0.0"
         },
         "runtime": {
           "Test.API.dll": {}
@@ -62,9 +62,9 @@
           }
         }
       },
-      "Test.Library/1.0.0": {
+      "Testt.User/1.0.0": {
         "runtime": {
-          "Test.Library.dll": {}
+          "Testt.User.dll": {}
         }
       }
     }
@@ -117,7 +117,7 @@
       "path": "swashbuckle.aspnetcore.swaggerui/6.4.0",
       "hashPath": "swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
     },
-    "Test.Library/1.0.0": {
+    "Testt.User/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

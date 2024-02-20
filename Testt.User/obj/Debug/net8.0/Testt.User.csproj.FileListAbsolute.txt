@@ -1,0 +1,12 @@
+C:\Users\Admin\Documents\GitHub\testapi\Testt.User\bin\Debug\net8.0\Testt.User.deps.json
+C:\Users\Admin\Documents\GitHub\testapi\Testt.User\bin\Debug\net8.0\Testt.User.dll
+C:\Users\Admin\Documents\GitHub\testapi\Testt.User\bin\Debug\net8.0\Testt.User.pdb
+C:\Users\Admin\Documents\GitHub\testapi\Testt.User\obj\Debug\net8.0\Testt.User.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\GitHub\testapi\Testt.User\obj\Debug\net8.0\Testt.User.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\GitHub\testapi\Testt.User\obj\Debug\net8.0\Testt.User.AssemblyInfo.cs
+C:\Users\Admin\Documents\GitHub\testapi\Testt.User\obj\Debug\net8.0\Testt.User.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\testapi\Testt.User\obj\Debug\net8.0\Testt.User.sourcelink.json
+C:\Users\Admin\Documents\GitHub\testapi\Testt.User\obj\Debug\net8.0\Testt.User.dll
+C:\Users\Admin\Documents\GitHub\testapi\Testt.User\obj\Debug\net8.0\refint\Testt.User.dll
+C:\Users\Admin\Documents\GitHub\testapi\Testt.User\obj\Debug\net8.0\Testt.User.pdb
+C:\Users\Admin\Documents\GitHub\testapi\Testt.User\obj\Debug\net8.0\ref\Testt.User.dll

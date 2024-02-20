@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Testt.User;
 
 namespace Test.API.Controllers
 {
@@ -34,6 +35,12 @@ namespace Test.API.Controllers
         public string Get(int id)
         {
             return "Test";
+        }
+
+        [HttpGet("users")]
+        public IActionResult GetUser()
+        {
+            return Ok(Class1.GetUsers());
         }
     }
 }

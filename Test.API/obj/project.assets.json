@@ -89,14 +89,14 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-      "Test.Library/1.0.0": {
+      "Testt.User/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "compile": {
-          "bin/placeholder/Test.Library.dll": {}
+          "bin/placeholder/Testt.User.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Test.Library.dll": {}
+          "bin/placeholder/Testt.User.dll": {}
         }
       }
     }
@@ -431,16 +431,16 @@
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
     },
-    "Test.Library/1.0.0": {
+    "Testt.User/1.0.0": {
       "type": "project",
-      "path": "../Test.Library/Test.Library.csproj",
-      "msbuildProject": "../Test.Library/Test.Library.csproj"
+      "path": "../Testt.User/Testt.User.csproj",
+      "msbuildProject": "../Testt.User/Testt.User.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Swashbuckle.AspNetCore >= 6.4.0",
-      "Test.Library >= 1.0.0"
+      "Testt.User >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -480,8 +480,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Admin\\Documents\\GitHub\\testapi\\Test.Library\\Test.Library.csproj": {
-              "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\testapi\\Test.Library\\Test.Library.csproj"
+            "C:\\Users\\Admin\\Documents\\GitHub\\testapi\\Testt.User\\Testt.User.csproj": {
+              "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\testapi\\Testt.User\\Testt.User.csproj"
             }
           }
         }

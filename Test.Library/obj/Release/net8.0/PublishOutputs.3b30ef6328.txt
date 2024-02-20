@@ -1,6 +1,0 @@
-C:\Users\Admin\Documents\GitHub\testapi\Test.Library\obj\Release\net8.0\PubTmp\Out\app_data\Jobs\Triggered\Test.Library\Settings.job
-C:\Users\Admin\Documents\GitHub\testapi\Test.Library\obj\Release\net8.0\PubTmp\Out\app_data\Jobs\Triggered\Test.Library\Test.Library.exe
-C:\Users\Admin\Documents\GitHub\testapi\Test.Library\obj\Release\net8.0\PubTmp\Out\app_data\Jobs\Triggered\Test.Library\Test.Library.dll
-C:\Users\Admin\Documents\GitHub\testapi\Test.Library\obj\Release\net8.0\PubTmp\Out\app_data\Jobs\Triggered\Test.Library\Test.Library.deps.json
-C:\Users\Admin\Documents\GitHub\testapi\Test.Library\obj\Release\net8.0\PubTmp\Out\app_data\Jobs\Triggered\Test.Library\Test.Library.runtimeconfig.json
-C:\Users\Admin\Documents\GitHub\testapi\Test.Library\obj\Release\net8.0\PubTmp\Out\app_data\Jobs\Triggered\Test.Library\Test.Library.pdb
